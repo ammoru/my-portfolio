@@ -3,7 +3,7 @@ import { IoCopyOutline } from "react-icons/io5";
 
 // Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
-import { ColourfulText } from "./colourful-text";
+import { ColourfulText } from "./Colourful-text";
 
 import { cn } from "@/lib/utils";
 
@@ -122,7 +122,7 @@ export const BentoGridItem = ({className,id,title,description,img,imgClassName,t
           >
             {id === 1 && (
               <div className="">
-                Hi! I'm{" "}
+                Hi! I&apos;m{" "}
                 {
                   <ColourfulText
                     text="Kunchapu Ammoru"
