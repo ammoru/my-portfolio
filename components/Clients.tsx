@@ -5,6 +5,7 @@ import React from "react";
 import { companies, testimonials , skills} from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
 import { LampContainer } from "./ui/lamp";
+import Image from "next/image";
 
 const Clients = () => {
   return (
@@ -27,25 +28,24 @@ const Clients = () => {
             speed="slow"
           />
         </div> */}
-      <LampContainer >
-        
-        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 ">
-          {skills.map((company) => (
-            <React.Fragment key={company.id}>
+        <LampContainer>
+          <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 ">
+            {skills.map((company) => (
+              <React.Fragment key={company.id}>
                 <div className="inline-flex flex-col items-center mx-4 animate-shimmer">
-                <img
-                  src={company.img}
-                  alt={company.name}
-                  className="md:w-10 w-5"
-                />
-                <div className="md:w-24 w-20 text-center">
-                  <h1 className="text-xs md:text-sm">{company.name}</h1>
+                  <img
+                    src={company.img}
+                    alt={company.name}
+                    className="md:w-10 w-5"
+                  />
+                  <div className="md:w-24 w-20 text-center">
+                    <h1 className="text-xs md:text-sm">{company.name}</h1>
+                  </div>
                 </div>
-                </div>
-            </React.Fragment>
-          ))}
-        </div>
-      </LampContainer>
+              </React.Fragment>
+            ))}
+          </div>
+        </LampContainer>
       </div>
     </section>
   );

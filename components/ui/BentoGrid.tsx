@@ -3,7 +3,7 @@ import { IoCopyOutline } from "react-icons/io5";
 
 // Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
-import { ColourfulText } from "./Colourful-text";
+import { ColourfulText } from "./colourful-text";
 
 import { cn } from "@/lib/utils";
 

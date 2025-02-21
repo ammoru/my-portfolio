@@ -4,12 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    
-     "build": "next build && next export",
-    "deploy": "npm run build && gh-pages -d out"
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "@react-three/drei": "^9.105.4",
