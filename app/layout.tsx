@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 
 import "./globals.css";
 import { ThemeProvider } from "./provider";
-import Scrollup from "./scrollup";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
