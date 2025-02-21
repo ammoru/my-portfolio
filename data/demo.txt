@@ -1,0 +1,2 @@
+"build": "next build",
+"deploy": "vercel --prod",

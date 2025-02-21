@@ -1,7 +1,13 @@
 import { withSentryConfig } from '@sentry/nextjs';
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    output: "export",
+    basePath: "/my-portfolio", // Replace with your repo name
+    images: {
+        unoptimized: true, // Required because Next.js optimizations don’t work with static export
+    },
+};
 
 const sentryOptions = {
     org: "ammoru",
