@@ -1,11 +1,16 @@
-// app/api/sentry-example-api/route.js
 import * as Sentry from "@sentry/nextjs";
 
 export async function GET() {
   try {
-    console.log("Sentry Example API Triggered");
+    // console.log("Sentry Example API Triggered");
 
-    return Response.json({ message: "Sentry API Example Works!" });
+    return new Response(
+      JSON.stringify({ message: "Sentry API Example Works!" }),
+      {
+        status: 200,
+        headers: { "Content-Type": "application/json" },
+      }
+    );
   } catch (error) {
     Sentry.captureException(error);
     console.error("API Error:", error);

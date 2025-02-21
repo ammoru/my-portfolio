@@ -25,11 +25,18 @@ const RecentProjects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
+                  <Image
+                    src="/bg.png"
+                    alt="bgimg"
+                    layout="fill"
+                    objectFit="cover"
+                  />
                 </div>
-                <img
+                <Image
                   src={item.img}
                   alt="cover"
+                  layout="fill"
+                  objectFit="contain"
                   className="z-10 absolute bottom-0"
                 />
               </div>
@@ -51,17 +58,6 @@ const RecentProjects = () => {
               <div className="flex items-center justify-between mt-7 mb-3">
                 <div className="flex items-center">
                   <AnimatedTooltip items={item.iconLists} />
-                  {/* {item.iconLists.map((icon, index) => (
-                    <div
-                      key={index}
-                      className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
-                      style={{
-                        transform: `translateX(-${5 * index + 2}px)`,
-                      }}
-                    >
-                      <img src={icon} alt="icon5" className="p-2" />
-                    </div>
-                  ))} */}
                 </div>
 
                 <div className="flex justify-center items-center">

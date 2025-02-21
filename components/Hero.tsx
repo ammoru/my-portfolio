@@ -61,7 +61,7 @@ const Hero = () => {
           </Link>
         </div>
       </div>
-      {/* < Scrollup/> */}
+     
     </div>
   );
 };

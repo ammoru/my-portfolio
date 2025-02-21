@@ -1,8 +1,7 @@
 "use client";
 
 import React from "react";
-
-import { companies, testimonials , skills} from "@/data";
+import { companies, testimonials, skills } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
 import { LampContainer } from "./ui/lamp";
 import Image from "next/image";
@@ -33,9 +32,11 @@ const Clients = () => {
             {skills.map((company) => (
               <React.Fragment key={company.id}>
                 <div className="inline-flex flex-col items-center mx-4 animate-shimmer">
-                  <img
+                  <Image
                     src={company.img}
                     alt={company.name}
+                    width={40} // Adjust width as needed
+                    height={40} // Adjust height as needed
                     className="md:w-10 w-5"
                   />
                   <div className="md:w-24 w-20 text-center">
