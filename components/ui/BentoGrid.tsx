@@ -11,7 +11,7 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
-import { ColourfulText } from "./colourful-text";
+import { ColourfulText } from "./Colourful-text";
 
 export const BentoGrid = ({className,children,}: {
   className?: string;  children?: React.ReactNode; }) => {

@@ -1,23 +1,9 @@
-import * as Sentry from "@sentry/nextjs";
+import { NextResponse } from "next/server";
 
-export async function GET() {
-  try {
-    // console.log("Sentry Example API Triggered");
+export const dynamic = "force-dynamic";
 
-    return new Response(
-      JSON.stringify({ message: "Sentry API Example Works!" }),
-      {
-        status: 200,
-        headers: { "Content-Type": "application/json" },
-      }
-    );
-  } catch (error) {
-    Sentry.captureException(error);
-    console.error("API Error:", error);
-
-    return new Response(JSON.stringify({ error: "Internal Server Error" }), {
-      status: 500,
-      headers: { "Content-Type": "application/json" },
-    });
-  }
+// A faulty API route to test Sentry's error monitoring
+export function GET() {
+  throw new Error("Sentry Example API Route Error");
+  return NextResponse.json({ data: "Testing Sentry Error..." });
 }
