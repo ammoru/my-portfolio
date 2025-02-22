@@ -177,7 +177,7 @@ export const skills = [
   {
     id: 4,
     name: "CSS",
-    img: "/csslogo.png",
+    // img: "/csslogo.png",
   },
   {
     id: 5,
