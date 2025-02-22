@@ -42,7 +42,7 @@ const Hero = () => {
           </p>
 
           <TextGenerateEffect
-            words="Transforming lines of code into real-world impact."
+            words="Transforming lines of code into real-world impacts."
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
