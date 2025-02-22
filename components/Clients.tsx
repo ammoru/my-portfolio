@@ -33,14 +33,14 @@ const Clients = () => {
               <React.Fragment key={company.id}>
                 <div className="inline-flex flex-col items-center mx-4 animate-shimmer">
                   <Image
-                  src={company.img || "/js.svg"}
-                  alt={company.name}
-                  width={40} // Adjust width as needed
-                  height={40} // Adjust height as needed
-                  className="md:w-10 w-5"
+                    src={company.img||""}
+                    alt={company.name}
+                    width={40} // Adjust width as needed
+                    height={40} // Adjust height as needed
+                    className="md:w-10 w-5"
                   />
                   <div className="md:w-24 w-20 text-center">
-                  <h1 className="text-xs md:text-sm">{company.name}</h1>
+                    <h1 className="text-xs md:text-sm">{company.name}</h1>
                   </div>
                 </div>
               </React.Fragment>
