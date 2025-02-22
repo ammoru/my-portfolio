@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    
+    // output: "export",   // Enables static export
+    // basePath: "/my-portfolio",  // Replace with your actual GitHub repo name
+    // assetPrefix: "/my-portfolio/", // Ensures assets load correctly
     trailingSlash: true, // Helps with subpage navigation
     eslint: {
         ignoreDuringBuilds: true,
