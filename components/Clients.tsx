@@ -1,14 +1,14 @@
 "use client";
 
 import React from "react";
-import { companies, testimonials, skills } from "@/data";
+import { companies,  skills } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
 import { LampContainer } from "./ui/lamp";
 import Image from "next/image";
 
 const Clients = () => {
   return (
-    <section id="testimonials" className="">
+    <section  className="">
       <h1 className="heading mb-8">
         My
         <span className="text-purple">Skills </span>
