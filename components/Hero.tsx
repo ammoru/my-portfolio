@@ -50,7 +50,7 @@ const Hero = () => {
             Hi! I&apos;m Kunchapu Ammoru, a MERN Stack Developer.
           </p>
 
-          <Link href="./Ammoru_WebDeveloper3_80.pdf" passHref legacyBehavior>
+          <Link href="./Ammoru_WebDeveloper4_80.pdf" passHref legacyBehavior>
             <a target="_blank">
               <MagicButton
                 title="download Resume"

@@ -82,10 +82,25 @@ export const projects = [
       { id: 4, name: "MongoDB", image: "/mongodb.png" },
       { id: 5, name: "Express", image: "/Express.svg" },
     ],
-    link: "#home",
+    link: "https://adityauniversity.in/latecomers/login",
   },
   {
     id: 2,
+    title: "Bus Live Tracking System",
+    des: "A web application utilizing IoT and GPS to provide real-time bus tracking, navigation, and route optimization for improved public transportation management.",
+    img: "/bus-tracking.webp",
+    iconLists: [
+      { id: 1, name: "React", image: "/re.svg" },
+      { id: 2, name: "JavaScript", image: "/js.svg" },
+      { id: 3, name: "Tailwind CSS", image: "/tail.svg" },
+      { id: 4, name: "MongoDB", image: "/mongodb.png" },
+      { id: 5, name: "Express", image: "/Express.svg" },
+      { id: 6, name: "IoT", image: "/iot.png" },
+    ],
+    link: "https://adityatransporthub.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Finance Tracker",
     des: "Track your income and expenses effortlessly with our Finance Tracker App. Manage transactions, visualize financial data, and stay on top of your budget.",
     img: "/finance_tracker.avif",
@@ -99,7 +114,7 @@ export const projects = [
     link: "https://finance-tracker-232cc.web.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Car Repair & Maintenance Service",
     des: "Professional car repair services with expert mechanics and top-quality maintenance solutions.",
     img: "/car_repair.jpg",
@@ -112,7 +127,7 @@ export const projects = [
     link: "https://ammoru.github.io/car_repair/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Tic-Tac-Toe Game in React",
     des: "Built an interactive Tic-Tac-Toe game using React, featuring state management with hooks and dynamic game logic.",
     img: "/tictactoe.jpg",
@@ -123,40 +138,22 @@ export const projects = [
     ],
     link: "https://ammoru.github.io/react_tic-tac-toe/",
   },
+  {
+    id: 6,
+    title: "TuneTogether - Music & Chat",
+    des: "A React Native music streaming app with integrated AI-powered recommendations and real-time chat rooms for users to share and discuss music.",
+    img: "/coming-soon.jpg",
+    iconLists: [
+      { id: 1, name: "React Native", image: "/reactnativelogo.png" },
+      { id: 2, name: "JavaScript", image: "/js.svg" },
+      { id: 3, name: "Firebase", image: "/Firebase.svg" },
+      { id: 4, name: "Express.js", image: "/Express.svg" },
+      { id: 5, name: "AI Integration", image: "/ai.jpg" },
+    ],
+    link: "#home",
+  },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
 
 export const skills = [
   {
